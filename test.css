@@ -1,0 +1,60 @@
+
+
+/*chinh lai chieu cao cua anh tai man hinh col-md*/
+@media screen and (max-width: 768px){
+	.ima-blockquote{
+		height: 120px !important;
+	}
+}
+@media screen and (max-width: 568px){
+	.ima-blockquote{
+		width: 100% !important;
+		height: 200px !important;
+	}
+}
+
+
+
+
+
+.blockquote{
+	position: relative;
+	/*padding-left: 2rem;*/
+}
+
+.blockquote::before{
+	position: absolute;
+	font-family: fantasy;
+	margin-left: 5px;
+	content: "\201C";
+	font-size: 2rem;
+	top: -0.5rem;
+	color: yellow;
+	left: 0;
+	font-weight: bold;
+
+}	
+.blockquote p{
+	padding-left: 2rem;
+}
+
+#my-div {
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: white;
+	position: relative;
+	top: -90px;
+	left: -11%;
+	transform: rotate(270deg);
+}
+#my-div1 {
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: white;
+	position: relative;
+	top: -90px;
+	left: -11%;
+	transform: rotate(270deg);
+}

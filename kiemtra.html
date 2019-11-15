@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1"> 
+	<title>Bootstrap V4</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<!-- Fontawsome -->
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<!-- JS -->
+	<script type="text/javascript"src="js/jquery-3.3.1.slim.min.js"></script>
+	
+	<script type="text/javascript"src="js/popper.min.js"></script>
+	<script type="text/javascript"src="css/bootstrap.min.css"></script>
+	<script type="text/javascript"src="js/bootstrap.min.js"></script>
+	<!-- Fontawsome -->
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript">
+		$('.carousel').carousel({
+ 		 interval: 2000
+ 		})
+	</script>
+</head>
+<body>
+
+<!-- Vùng chứa toàn bộ menu -->
+	<div class="container-fluid">
+		<!-- Menu -->
+		<div class="container">
+			<nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-warning">
+				<!-- Nút 3 gạch -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-item">
+					<!-- 3 gsvhj - icon -->
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Logo/4pany name --> 
+				<a href="" class="navbar-brand text-white" style="font-size: 35px; font-weight: bold; margin-left: 5rem"><i class="fab fa-twitter" style="color: black; font-size: 50px; margin-right: 1rem"></i>SECURED</a>
+				<P style="border-left: 1px solid white; padding-left: 5px; margin: 1rem"> <small style="font-weight: bold">Nguyễn Thị Kim Huyền
+				<br>Lớp IT18A1.11</small>
+					
+				</P>
+				<!-- Menu Item -->
+				<div class="collapse navbar-collapse" style="margin-left: 18rem" id="menu-item">
+					<ul class="navbar-nav text-uppercase" style="font-weight: bold;">
+						<li class="nav-item">
+							<a href="#" class="nav-link active text-white" style="border-right: 1px solid white">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-dark" style="border-right: 1px solid white">Sản phẩm</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-dark" style="border-right: 1px solid white">Dịch vụ</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-dark" style="border-right: 1px solid white">Liên hệ</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-dark" >Hỗ trợ</a>
+						</li>
+					</ul>
+				
+				</div>
+			</nav>
+		</div> 
+	</div>	
+					<!--Slide-show-->
+		<div class="carousel slide" data-ride="carousel" id="slideshow" style="width: 100%; height: 650px;">
+			<!--Ảnh và nội dung-->
+			<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="hinh/4.png" class="img-fluid" style="width: 100%; height: 650px;" >
+				<!--chứa nội dung tiêu đề và mô tả-->
+				<div class="carousel-caption" style="position: absolute; top: 25%;">
+					<a href="" class="text-uppercase" style="color: white; font-weight: bold;"><h1>Your logical</h1></a>
+					<h3 style="color: white; text-transform: uppercase;">Choice for sercurity service</h3>
+				</div>
+			</div>
+			<!--Slide 2-->
+			<div class="carousel-item">
+				<img src="hinh/4.png" class="img-fluid" style="width: 100%; height: 650px;">
+				<!--chứa nội dung tiêu đề và mô tả-->
+				<div class="carousel-caption" style="position: absolute; top: 25%">
+					<a href="" class="text-uppercase" style="color: white; font-weight: bold;"><h1>Your logical</h1></a>
+					<h3 style="color: white; text-transform: uppercase;">Choice for sercurity service</h3>
+				</div>
+			</div>
+			</div>
+			<!--các nút tiến lùi-->
+			<a href="#slideshow" class="carousel-control-next" role="button" data-slide="next" style="border-radius: 50%; border: 2px solid white; height: 10%; width: 5%; top: 45%; right: 46%">
+				<!--icon next-->
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+			<a href="#slideshow" class="carousel-control-prev" role="button" data-slide="prev" style="border-radius: 50%; border: 2px solid white; height: 10%; width: 5%; top: 45%; left: 44%">
+				<!--icon prev-->
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+		</div>
+
+
+				<div class="card-deck" style="position: absolute; top: 90%; width: 80%; margin-left: 7rem">
+				  <div class="card bg-warning text-white text-center" style="border: 0;">
+				    <img src="hinh/com.png" class=" rounded-circle" alt="hinh/com.png" style="width: 50%; height: 150px; margin-left: 5rem; border: 2px solid white; position: relative; bottom: 5rem;">
+				    <div class="card-body">
+				      <h5 class="card-title text-uppercase font-weight-bold">Card title</h5>
+				      <p class="card-text"><small class="text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+				    </div>
+				  </div>
+				  <div class="card bg-warning text-white text-center">
+				    <img src="hinh/com.png" class="card-img-top rounded-circle" alt="hinh/com.png" style="width: 50%; height: 150px; margin-left: 5rem; border: 2px solid white; position: relative; bottom: 5rem; ">
+				    <div class="card-body">
+				      <h5 class="card-title text-uppercase font-weight-bold">Card title</h5>
+				
+				      <p class="card-text"><small class="text-muted">This card has supporting text below as a natural lead-in to additional content.</small></p>
+				    </div>
+				  </div>
+				  <div class="card bg-warning text-white text-center">
+				   <img src="hinh/com.png" class="card-img-top rounded-circle" alt="hinh/com.png" style="width: 50%; height: 150px; margin-left: 5rem; border: 2px solid white;  position: relative; bottom: 5rem; ">
+				    <div class="card-body">
+				      <h5 class="card-title text-uppercase font-weight-bold">Card title</h5>
+				      <p class="card-text"><small class="text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longre.</small></p>
+				    </div>
+				  </div>
+
+		</div>
+
+		<div class="container-fluid bg-dark">
+		<!-- Vung chua anh va noi dung block -->
+		<div class="row ima-blockquote">
+			<!-- Vung chua blockquote -->
+			<div class="col-lg-8 col-md-8 col-sm-12 col-12" style="margin-top: 20rem; margin-left: 15rem; height: 180px">
+				<blockquote class="blockquote text-left text-white">
+			<!-- noi dung trich dan --> 
+			<p class="m-0 text-uppercase text-warning font-weight-bold" style="font-size: 20p">Hôm nay học Bootstrap thật chuối... thật sự rất chuối</p>
+				<blockquote id="block" class="blockquote text-left text-white">
+			<!-- noi dung trich dan --> 
+			<p class="m-0 text-uppercase text-white font-weight-bold" style="font-size: 20p">Hôm nay học Bootstrap thật chuối... </p>
+			<!-- Footer - tac gia, dia chi -->
+			<footer class="blockquote-footer bg-dark text-uppercase text-white text-left">
+				Hồ Đức Lĩnh tại <cite title="Trích dẫn">Phòng Lab 707</cite>
+			</footer>
+		</blockquote>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid bg-danger">
+		<div class="container" style="padding-left: 3rem; padding-top: 2rem; height: 400px">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<a href="" class="text-dark" style="font-size: 35px; font-weight: bold"><i class="fab fa-twitter" style="color: orange; font-size: 50px; margin-right: 1rem"></i>SECURED PLUS</a>
+					<p style="margin-left: 4rem; color: gray; font-size: 20px">This card has supporting text below as a natural lead-in to additional content</p>
+					<div class="list-box">
+							<ul class="list text-warning" >
+								<li><a href=""style="color: black">Công nghệ thông tin</a></li>
+								<li><a href="" style="color: black">Công nghệ điện</a></li>
+								<li><a href="" style="color: black">Công nghệ thực phẩm</a></li>
+								<li><a href="" style="color: black">Công nghệ điện tử</a></li>
+								<li><a href="" style="color: black">Công nghệ viễn thông</a></li>
+							</ul>
+						 	<a href="#" class="btn btn-warning shadow" style="margin-left: 1rem">
+								VIEW DETAILS
+							</a>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<img src="hinh/com.png" class="img-fluid" style="height: 330px">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid" style="background: #F5F5F5; height: 500px">
+		<div class="container">
+			<a href="" class="text-dark" style="font-size: 35px; font-weight: bold">SECURED PLUS</a>
+			<p style=" color: gray; font-size: 20px">This card has supporting text below as a natural lead-in to additional content</p>
+			<div class="card-deck">
+
+				  <div class="card" style="border: 0; background: #F5F5F5 ">
+				    <img src="hinh/com.png" class="card-img-top" alt="...">
+
+				    <div class="card-body">
+				      
+				    <h5 class="card-title text-uppercase font-weight-bold">Magia Record Collab Magia Clash</h5>
+				      <p class="card-text"><small>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longre.</small></p>
+				     
+				    </div>
+				  </div>
+				  <div class="card"  style="border: 0; background: #F5F5F5">
+				    <img src="hinh/com.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title text-uppercase font-weight-bold">Magia Record Collab Magia Clash</h5>
+				      <p class="card-text"><small>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longre.</small></p>
+				    </div>
+				    
+				  </div>
+				  <div class="card"  style="border: 0; background: #F5F5F5">
+				    <img src="hinh/com.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title text-uppercase font-weight-bold">Magia Record Collab Magia Clash</h5>
+				      <p class="card-text"><small>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longre.</small></p>
+				  
+		
+				    </div>
+				  </div>
+			</div>
+
+		</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid bg-danger">
+		<div class="container" style="height: 290px">
+			<a href="" class="text-dark" style="font-size: 35px; font-weight: bold">SECURED PLUS</a>
+			<p style=" color: gray; font-size: 20px">This card has supporting text below as a natural lead-in to additional content</p>
+			<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+			<div class="row ima-blockquote">
+			<!-- Vung chua anh -->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+				<img src="hinh/women.png" class="rounded-circle shadow" img-fluid style="width: 130px; height: 130px">
+				
+			</div>
+			<!-- Vung chua blockquote -->
+			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
+				<blockquote class="blockquote text-left shadow" style="background: white">
+			<!-- noi dung trich dan --> 
+			<p class="m-0 p-3" style="font-size: 10px">Hôm nay học Bootstrap thật chuối... Tăng độ khó và độ lớn của công việc code tăng lên quá nhiều... nhưng không học thì có con đường... đi cày cho nhanh. Tăng độ khó và độ lớn của công việc code tăng lên quá nhiều... nhưng không học thì có con đường... đi cày cho nhanh</p>
+			<!-- Footer - tac gia, dia chi -->
+			<footer class="blockquote-footer text-uppercase text-left font-weight-bold" style="font-size: 10px; margin-left: 1rem">
+				Hồ Đức Lĩnh tại <cite title="Trích dẫn">Phòng Lab 707</cite>
+			</footer>
+				</blockquote>
+				<div id="my-div"></div>
+			</div>
+			</div>
+
+
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+			<div class="row ima-blockquote">
+			<!-- Vung chua anh -->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+				<img src="hinh/men.png" class="rounded-circle shadow" img-fluid style="width: 130px; height: 130px">
+				
+			</div>
+			<!-- Vung chua blockquote -->
+			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
+				<blockquote class="blockquote text-left shadow" style="background: white">
+			<!-- noi dung trich dan --> 
+			<p class="m-0 p-3" style="font-size: 10px">Hôm nay học Bootstrap thật chuối... Tăng độ khó và độ lớn của công việc code tăng lên quá nhiều... nhưng không học thì có con đường... đi cày cho nhanh. Tăng độ khó và độ lớn của công việc code tăng lên quá nhiều... nhưng không học thì có con đường... đi cày cho nhanh</p>
+			<!-- Footer - tac gia, dia chi -->
+			<footer class="blockquote-footer text-uppercase text-left font-weight-bold" style="font-size: 10px; margin-left: 1rem">
+				Hồ Đức Lĩnh tại <cite title="Trích dẫn">Phòng Lab 707</cite>
+			</footer>
+				</blockquote>
+				<div id="my-div1"></div>
+			</div>
+			</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+	<div class="container-fluid bg-dark" style="height: 200px">
+		<div class="container">
+			<div class="row" >
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top: 3rem">
+					<p style="color: gray">Nguyễn Thị Kim Huyền</p>
+					<p style="color: gray">Lớp: IT18A1.11</p>
+				
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top: 3rem">
+					<p style="color: gray">Bài kiểm tra lập trình giao diện web</p>
+					<p style="color: yellow">Ngày 15/11/2019</p>
+				
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top: 3rem">
+					<a href="#" class="btn"> <i class="fab fa-facebook" style="color: gray; font-size: 20px"></i></a>
+     				<a href="#" class="btn"> <i class="fab fa-twitter" style="color: gray; font-size: 20px"></i></a>
+    				<a href="#" class="btn"> <i class="fab fa-youtube" style="color: gray; font-size: 20px"></i></a>
+					<a href="#" class="btn"> <i class="fab fa-google-play" style="color: gray; font-size: 20px"></i></a>
+					<a href="#" class="btn"> <i class="fab fa-google-plus" style="color: gray; font-size: 20px"></i></a>
+				</div>
+
+
+			</div>
+			<hr style="background: gray">
+			</div>
+
+			<div class="container">
+				<p style="color: gray; font-size: 10px">@COPYRIGHT 2019 BY KIM HUYỀN</p>
+			</div>
+
+	</div>
+
+
+
+
+</body>
+</html>
